@@ -16,7 +16,7 @@ checkout:
 dependencies:
   cache_directories:
     - ~/go
-  pre:
+  override:
     - make install_go
 
 test:
